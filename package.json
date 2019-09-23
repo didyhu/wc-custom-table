@@ -1,0 +1,8 @@
+{
+  "name": "custom-table",
+  "version": "1.0.0",
+  "main": "custom-table.js",
+  "license": "MIT",
+  "repository": "git@github.com:didyhu/wc-custom-table.git",
+  "author": "didyhu <didyhu@gmail.com>"
+}

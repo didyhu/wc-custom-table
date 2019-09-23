@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Demo</title>
+</head>
+
+<body>
+    <style>
+        #a-table {
+            color: black;
+        }
+
+        #a-table .even-row {
+            background-color: #ccc;
+        }
+
+        #a-table .body-cell.hover-row {
+            background-color: #aaa;
+        }
+
+        #a-table .body-cell.highlight {
+            font-weight: bold;
+        }
+    </style>
+    <custom-paging></custom-paging>
+    <custom-table id="a-table"></custom-table>
+    <custom-paging></custom-paging>
+    <!-- output -->
+    <dl>
+        <dt>Over</dt>
+        <dd id="hover"></dd>
+        <dt>Action</dt>
+        <dd id="selected"></dd>
+    </dl>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
