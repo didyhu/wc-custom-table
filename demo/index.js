@@ -1,5 +1,5 @@
 import { CustomTable } from "../custom-table.js"
-import { CustomPaging } from "https://raw.githack.com/didyhu/wc-custom-paging/master/custom-paging.js"
+import { CustomPaging } from "custom-paging"
 
 customElements.define("custom-table", class extends CustomTable {
     static get layout() {

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "custom-paging": "https://github.com/didyhu/wc-custom-paging.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "license": "MIT"
+}
